@@ -1,0 +1,257 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Phudu:wght@300&family=Playfair+Display&family=Rubik+Glitch&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+ 
+  *{
+    scroll-behavior: smooth;
+
+  }
+.nav-link{
+    color:white;
+    margin: 5px;
+   
+}
+.navbar-brand{
+    color: orangered;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link:hover{
+    color: orangered;
+}
+ 
+.banner{
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 50px; */
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   
+   overflow: hidden;
+}
+.banner img{
+    position: absolute;
+    top: 66px;
+    left: 0%;
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}
+.banner .content{
+    position: relative;
+    z-index: 1;
+    margin-left: 40px
+}
+.text{
+    color:white;
+    font-family: Playfire;
+    font-size: 70px;
+}
+small{
+    color: white;
+    font-size: large;
+    font-family: Playfire;
+}
+button{
+    background-color: orangered;
+    border-radius: 10px;
+    border: 1px orangered;
+    width: 140px;
+    height: 50px;
+    color: white;
+    font-size: larger;
+}
+
+
+
+
+
+.container-fluid
+.new
+img{
+    margin: 30px;
+    width:300px;
+    height: 200px;
+    
+   
+  
+    
+}
+.container-fluid
+ h1{
+    font-size: large;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+
+}
+.coursetit
+h1{
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline red;
+  
+
+   
+}
+.course{
+    margin-top: 150px;
+}
+
+
+.container-fluid
+.new
+.coursebtn{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+
+} 
+
+
+.coursebtn:hover{
+    color: #fff;
+    text-decoration: none;
+    background-position: right center; 
+}
+
+.service{
+    margin-top: 250px;
+}
+
+.sbox{
+    padding: 20px;
+} 
+         
+
+ .servicehead
+h1{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline red;
+  
+}
+.sbox:hover
+{
+    background-color: #414345;
+    transition: 1s;
+    color: white;
+    
+
+}
+.sbox
+h1:hover{
+    color:white;
+    text-decoration: underline red;
+    transition: 1s;
+    cursor: pointer;
+}
+ 
+
+.footer{
+    margin-top: 200px;
+    height: 400px;
+
+    background-color: rgb(17, 16, 16);
+}
+.contacthead
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+}
+.container-fluid
+a{
+  
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container-fluid
+i{
+    color: white;
+    font-size: larger;
+}
+.container-fluid
+h1{
+    font-size: larger;
+}
+.container-fluid
+.logo{
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+    margin-top: 65px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   overflow: hidden;
+}
+
+.about
+img{
+    position: absolute;
+    top: 8.5%;
+    left: 0%;
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}
+.about 
+.aboutcaption{
+    position: relative;
+    z-index: 1;
+    margin-left: 40px
+}
+.aboutcaption
+h1{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+  
+     font-size: 100px;
+   
+    color: red;
+}
+.aboutcontent
+.abouthead
+h1{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline red;
+    margin-top: 100px;
+    text-align: center;
+   
+}
+.aboutcontent
+.aboutpara
+p{
+     
+    font-family: 'Roboto Mono', monospace;
+  
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
